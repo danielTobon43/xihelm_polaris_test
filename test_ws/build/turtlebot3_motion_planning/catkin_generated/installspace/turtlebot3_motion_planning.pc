@@ -1,0 +1,8 @@
+prefix=/home/danieltc/xihelm/test_ws/install
+
+Name: turtlebot3_motion_planning
+Description: Description of turtlebot3_motion_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

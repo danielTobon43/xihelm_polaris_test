@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/danieltc/xihelm/test_ws/devel/.private/turtlebot3_motion_planning/setup.sh

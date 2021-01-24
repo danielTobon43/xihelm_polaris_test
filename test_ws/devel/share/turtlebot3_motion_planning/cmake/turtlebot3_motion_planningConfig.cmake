@@ -1,0 +1,1 @@
+/home/danieltc/xihelm/test_ws/devel/.private/turtlebot3_motion_planning/share/turtlebot3_motion_planning/cmake/turtlebot3_motion_planningConfig.cmake
