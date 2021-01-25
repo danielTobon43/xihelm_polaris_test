@@ -41,6 +41,13 @@ This is the ROS package for the turtlebot3 model. In this package there is an ur
 3.	**turtlebot3_motion_planning**:<br/>
 This is the ROS/Python package to estimate the orientation for the robot based in the gps coordinates from the Polaris north star and the gps coordinates from the robot.
 
+## GPS plugin
+From the rostopic list
+<img src="./examples/example8.png" align="center"><br/>
+
+From the rostopic echo /gps/fix
+<img src="./examples/example9.png" align="center"><br/>
+
 ## Bearing method calculation
 For this process, I assumed polaris north start latitude=90 and longitud=90, according to the image below.
 
