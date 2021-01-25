@@ -39,7 +39,7 @@ This ROS package contain the gps plugin module that was used to simulate (latitu
 This is the ROS package for the turtlebot3 model. In this package there is an urdf decription file for the robot, where I added the "hector gps" gazebo plugin. 
 
 3.	**turtlebot3_motion_planning**:<br/>
-This is the ROS/Python package to estimate the orientation for the robot based in the gps coordinates from the Polaris north start and the gps coordinates from the robot.
+This is the ROS/Python package to estimate the orientation for the robot based in the gps coordinates from the Polaris north star and the gps coordinates from the robot.
 
 ## Bearing method calculation
 For this process, I assumed polaris north start latitude=90 and longitud=90, according to the image below.
