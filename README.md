@@ -72,11 +72,11 @@ $ catkin build
 
 3. add the workspace directory in the global environment
 ```
-$ source /deve/setup.bash
+$ source /devel/setup.bash
 ```
 
 ## How to test
-For this step, you have to run two launch files: 1. for the robot model in gazebo and 2. another one for the ros/python program to calculate the orientation to polaris north start.
+For this step, you have to run two launch files: 1. for the robot model in gazebo and 2. another one for the ros/python program to calculate the orientation to polaris north star.
 
 1. launch robot model in gazebo
 ```
