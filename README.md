@@ -5,7 +5,7 @@ This is a ROS package to orientate a turtlebot3 to Polaris (North Start) automat
 For this task I proposed the use of a GPS plugin in Gazebo [hector gps gazebo plugin](http://wiki.ros.org/hector_gazebo_plugins) to simulate gps data (latitude,longitude). The main idea is to localize the robot using GPS data and then, find the bearing/heading angle between two points (see image below).
 
 
-<img src="./examples/example1.jpg" align="left"><br> <img src="./examples/example2.png" align="right"><br>
+<img src="./examples/example1.jpg" align="left"> <img src="./examples/example2.png" align="right"><br><br>
 
 Given an initial pose, the turtlebot will generate (latitude,longitude) data which will be use to estime the bearing angle. According to  [GISMAP](https://www.igismap.com/formula-to-find-bearing-or-heading-angle-between-two-points-latitude-longitude/), the process to calculate the bearing angle is the following:
 
@@ -59,9 +59,9 @@ Lb = 90 - robot_gps_longitude
 ```
 
 ## How to build
-To the code you have to compile the workspace for each ros package from the xihelm folder.<br>
+To build the code you will have to compile the workspace for each ros package from the xihelm folder.<br>
 
-1.	set ros enviroment:
+1.	set ros environment:
 ```
 $ source /opt/ros/DISTRO/setup.bash
 ```
@@ -71,13 +71,13 @@ $ source /opt/ros/DISTRO/setup.bash
 $ catkin build
 ```
 
-3. add the workspace directory in the global enviroment
+3. add the workspace directory in the global environment
 ```
 $ source /deve/setup.bash
 ```
 
 ## How to test
-For this step, you have to run two launch files: 1. for the robot model in gazebo and 2. another one for the ros/python program to calculate the orientate to polaris north start.
+For this step, you have to run two launch files: 1. for the robot model in gazebo and 2. another one for the ros/python program to calculate the orientation to polaris north start.
 
 1. launch robot model in gazebo
 ```
@@ -91,5 +91,6 @@ $ rosrun turtlebot3_motion_planning motion_planning.py
 
 
 ## Example
-<img src="./examples/example5.png" align="left"><br>
-<img src="./examples/example6.png" align="right"><br>
+<!-- <img src="./examples/example5.png" align="left"><br>
+<img src="./examples/example5.png" align="left"><br> -->
+<img src="./examples/example7.gif" align="right"><br>
