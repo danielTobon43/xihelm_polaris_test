@@ -46,7 +46,7 @@ For this process, I assumed polaris north start latitude=90 and longitud=90, acc
 
 <img src="./examples/example4.png" align="center"><br/>
 
-The python file: motion_planning.py is based from the ROS tutorial (how to get position and orientation from a robot)(https://www.youtube.com/watch?v=koN9ZqPRG_g). I integrate the GPS subscriber and the method to calculate the bearing angle for the robot.
+The python file: motion_planning.py is based from the ROS tutorial (how to get position and orientation from a robot)(https://www.youtube.com/watch?v=koN9ZqPRG_g). I integrated the GPS subscriber and the method to calculate the bearing angle for the robot.
 
 The code takes:
 
